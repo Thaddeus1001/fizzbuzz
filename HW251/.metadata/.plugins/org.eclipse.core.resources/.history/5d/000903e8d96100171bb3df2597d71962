@@ -1,0 +1,24 @@
+
+public class Fizzbuzz {
+    public static void main(String[] args){
+
+    
+        int arr100[] = onehundred();
+    	
+    	
+    }
+    
+    	private static int[] onehundred(){
+        	int onehundred[] = new int[100];
+        	for (int i = 0; i < 100; i++){
+        		
+        		int sum = 1;
+        		sum += 1;
+    			onehundred[i] = sum;
+        	}
+        return onehundred;
+        private static void print(String[]){
+        	
+        }
+    }
+}

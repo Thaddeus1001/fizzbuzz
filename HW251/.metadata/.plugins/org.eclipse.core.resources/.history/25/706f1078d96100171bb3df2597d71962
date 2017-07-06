@@ -1,0 +1,21 @@
+
+public class Fizzbuzz {
+    public static void main(String[] args){
+
+    
+        int arr100[] = onehundred();
+    	System.out.println(arr100);
+    	
+    }
+    
+    	private static int[] onehundred(){
+        	int onehundred[] = new int[100];
+        	for (int i = 0; i < onehundred.length; i++){
+        		
+        		int sum = 1;
+        		sum += 1;
+    			onehundred[i] = sum;
+        	}
+        
+    }
+}
